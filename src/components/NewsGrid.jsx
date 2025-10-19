@@ -14,9 +14,9 @@ export default function NewsGrid({ news, loading }) {
     return (
         <div className="news-grid" id="newsGrid">
             {
-                news.map((article, index) => {
-                    <NewsCard key={index} article={article} />;
-                })
+                news.map((article, index) => (
+                    <NewsCard key={index} article={article} />
+                ))
             }
         </div>
     );

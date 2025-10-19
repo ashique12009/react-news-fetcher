@@ -18,6 +18,8 @@ export default function Home() {
                         {category.charAt(0).toUpperCase() + category.slice(1)} News
                     </h2>
 
+                    {console.log('Rendering NewsGrid with news:', news, 'and loading:', loading)}
+
                     <NewsGrid news={news} loading={loading} />
                 </div>
             </main>
