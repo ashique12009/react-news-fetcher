@@ -11,7 +11,7 @@ export default function Home() {
     return (
         <> 
             <Header />
-            <CategoryNav selectedCategory={category} onSelectCategory={setCategory} />
+            <CategoryNav activeCategory={category} onSelectCategory={setCategory} />
             <main className="news-section">
                 <div className="container">
                     <h2 className="section-title">

@@ -1,4 +1,4 @@
-export default function CategoryNav({activeCategory, onSelectCategory}) {
+export default function CategoryNav({ activeCategory, onSelectCategory }) {
     const categories = [
         'general',
         'business',
@@ -14,16 +14,16 @@ export default function CategoryNav({activeCategory, onSelectCategory}) {
             <div className="container">
                 <div className="category-buttons">
                     {
-                        categories.map((cat) => {
+                        categories.map((cat) => (
                             <button 
                                 key={cat} 
-                                className={`category-btn ${activeCategory === cat} ? "active : ""`} 
+                                className={`category-btn ${activeCategory === cat ? "active" : ""}`} 
                                 data-category={cat} 
                                 onClick={() => {onSelectCategory(cat)}}
                             >
                                 {cat.charAt(0).toUpperCase() + cat.slice(1)}
                             </button>
-                        })
+                        ))
                     }
                 </div>
             </div>
