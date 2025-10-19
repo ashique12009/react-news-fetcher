@@ -6,34 +6,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      <nav class="category-nav">
-        <div class="container">
-          <div class="category-buttons">
-            <button class="category-btn active" data-category="all">
-              All News
-            </button>
-            <button class="category-btn" data-category="technology">
-              Technology
-            </button>
-            <button class="category-btn" data-category="science">
-              Science
-            </button>
-            <button class="category-btn" data-category="business">
-              Business
-            </button>
-            <button class="category-btn" data-category="sports">
-              Sports
-            </button>
-            <button class="category-btn" data-category="entertainment">
-              Entertainment
-            </button>
-            <button class="category-btn" data-category="health">
-              Health
-            </button>
-          </div>
-        </div>
-      </nav>
-
       <main class="news-section">
         <div class="container">
           <h2 class="section-title">Latest News</h2>
