@@ -1,20 +1,20 @@
 export default function NewsCard({ article }) {
     return (
-        <article class="news-card" data-category="technology">
+        <article className="news-card" data-category="technology">
             <img
-                src={article.urlToImage || "/placeholder.svg?height=200&width=400"}
+                src={article.urlToImage || "https://placehold.co/400x200?text=No+Image"}
                 alt={article.title}
-                class="news-image"
+                className="news-image"
             />
-            <div class="news-content">
-                <span class="news-category technology">{article.source?.name}</span>
-                <h3 class="news-title">
+            <div className="news-content">
+                <span className="news-category technology">{article.source?.name}</span>
+                <h3 className="news-title">
                     {article.title}
                 </h3>
-                <p class="news-description">
+                <p className="news-description">
                     {article.description}
                 </p>
-                <div class="news-meta">
+                <div className="news-meta">
                     <a
                         href={article.url}
                         target="_blank"
@@ -23,7 +23,7 @@ export default function NewsCard({ article }) {
                     >
                         Read more →
                     </a>
-                    <span class="news-date">📅 {new Date(article.publishedAt).toLocaleString()}</span>
+                    <span className="news-date">📅 {new Date(article.publishedAt).toLocaleString()}</span>
                     <span>5 min read</span>
                 </div>
             </div>
