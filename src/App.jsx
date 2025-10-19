@@ -8,7 +8,7 @@ function App() {
     <>
       <header>
         <div class="container">
-          <h1>📰 News Portal000</h1>
+          <h1>📰 News Portal</h1>
         </div>
       </header>
 
