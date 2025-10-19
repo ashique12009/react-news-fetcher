@@ -10,9 +10,9 @@ export default function CategoryNav({activeCategory, onSelectCategory}) {
     ];
 
     return (
-        <nav class="category-nav">
-            <div class="container">
-                <div class="category-buttons">
+        <nav className="category-nav">
+            <div className="container">
+                <div className="category-buttons">
                     {
                         categories.map((cat) => {
                             <button 

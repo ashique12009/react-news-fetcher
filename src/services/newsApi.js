@@ -1,5 +1,4 @@
 const API_KEY = import.meta.env.VITE_NEWS_API_KEY; // Your News API key here
-console.log('API Key:', API_KEY);
 const BASE_URL = 'https://newsapi.org/v2/top-headlines';
 
 export async function fetchNews(category = 'general', country = 'us') {

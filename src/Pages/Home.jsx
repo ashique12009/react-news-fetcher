@@ -12,9 +12,9 @@ export default function Home() {
         <> 
             <Header />
             <CategoryNav selectedCategory={category} onSelectCategory={setCategory} />
-            <main class="news-section">
-                <div class="container">
-                    <h2 class="section-title">
+            <main className="news-section">
+                <div className="container">
+                    <h2 className="section-title">
                         {category.charAt(0).toUpperCase() + category.slice(1)} News
                     </h2>
 
