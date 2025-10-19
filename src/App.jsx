@@ -9,7 +9,7 @@ function App() {
             <main class="news-section">
                 <div class="container">
                     <h2 class="section-title">Latest News</h2>
-                    <div class="news-grid" id="newsGrid"></div>
+                    
 
                     <div class="empty-state" id="emptyState">
                         <h3>No news found</h3>
