@@ -15,6 +15,14 @@ export default function NewsCard({ article }) {
                     {article.description}
                 </p>
                 <div class="news-meta">
+                    <a
+                        href={article.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="read-more"
+                    >
+                        Read more →
+                    </a>
                     <span class="news-date">📅 {new Date(article.publishedAt).toLocaleString()}</span>
                     <span>5 min read</span>
                 </div>
