@@ -6,12 +6,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      <header>
-        <div class="container">
-          <h1>📰 News Portal</h1>
-        </div>
-      </header>
-
       <nav class="category-nav">
         <div class="container">
           <div class="category-buttons">
