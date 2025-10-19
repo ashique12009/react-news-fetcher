@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Header from "../Components/Header";
-import CategoryNav from "../Components/CategoryNav";
-import NewsGrid from "../Components/NewsGrid";
+import Header from "../components/Header";
+import CategoryNav from "../components/CategoryNav";
+import NewsGrid from "../components/NewsGrid";
 import { useFetchNews } from "../hooks/useFetchNews";
 
 export default function Home() {
